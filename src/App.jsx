@@ -1,5 +1,6 @@
 import { MainSection } from "./MainSection";
 import { BrowserRouter } from "react-router-dom";
+import { Header } from "./components/header.jsx"
 
 /**
  * A component representing the whole application
@@ -9,7 +10,8 @@ import { BrowserRouter } from "react-router-dom";
 export function App() {
   return (
     <BrowserRouter>
-      <MainSection />
+      <Header />
+        <MainSection />
     </BrowserRouter>
   );
 }
