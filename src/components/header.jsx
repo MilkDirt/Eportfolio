@@ -3,13 +3,11 @@ import "../css/header.css"
 export function Header() {
     return (
         <header>
-            <h1>My Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                </ul>
+            <nav class = "header">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/projects">Projects</a>
+                <a href="/CV">CV</a>
             </nav>
         </header>
     );
